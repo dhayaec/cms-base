@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home page matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="flex flex-col items-center justify-center min-h-screen py-2"
+  >
+    <main
+      class="flex flex-col items-center justify-center flex-1 px-20 text-center"
+    >
+      <h1
+        class="text-blue-400 text-2xl"
+      >
+        Welcome to 
+        <a
+          href="https://nextjs.org"
+        >
+          Next.js!
+        </a>
+      </h1>
+      <div
+        class="flex flex-col"
+      >
+        <p
+          class="text-indigo-600 py-2"
+        >
+          This is an example of base cms package
+        </p>
+      </div>
+    </main>
+    <footer>
+      <a
+        class="text-xs text-gray-400"
+        href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        © 2021 Base CMS boilerplate
+      </a>
+    </footer>
+  </div>
+</DocumentFragment>
+`;
