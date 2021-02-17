@@ -5,14 +5,16 @@ export const Home = (): JSX.Element => (
     <Head>
       <title>Create Next App</title>
       <link rel="icon" href=" /favicon.ico" />
-    </Head >
+    </Head>
 
     <main className="flex flex-col items-center justify-center flex-1 px-20 text-center">
       <h1 className="text-blue-400 text-2xl">
         Welcome to <a href="https://nextjs.org">Next.js!</a>
       </h1>
       <div className="flex flex-col">
-        <p className="text-indigo-600 py-2">This is an example of base cms package</p>
+        <p className="text-indigo-600 py-2">
+          This is an example of base cms package
+        </p>
       </div>
     </main>
 
@@ -26,7 +28,7 @@ export const Home = (): JSX.Element => (
         &copy; {new Date().getFullYear()} Base CMS boilerplate
       </a>
     </footer>
-  </div >
+  </div>
 )
 
 export default Home
