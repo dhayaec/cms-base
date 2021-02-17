@@ -7,6 +7,10 @@ export const Home = (): JSX.Element => (
       <link rel="icon" href=" /favicon.ico" />
     </Head>
 
+    <header className="flex">
+      <h1 className="text-2xl">Header</h1>
+    </header>
+
     <main className="flex flex-col items-center justify-center flex-1 px-20 text-center">
       <h1 className="text-blue-400 text-2xl">
         Welcome to <a href="https://nextjs.org">Next.js!</a>
@@ -19,14 +23,9 @@ export const Home = (): JSX.Element => (
     </main>
 
     <footer>
-      <a
-        href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-xs text-gray-400"
-      >
+      <p className="text-xs text-gray-400">
         &copy; {new Date().getFullYear()} Base CMS boilerplate
-      </a>
+      </p>
     </footer>
   </div>
 )

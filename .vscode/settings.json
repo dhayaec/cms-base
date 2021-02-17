@@ -1,6 +1,6 @@
 {
   "files.autoSave": "onFocusChange",
-  "editor.formatOnSave": false,
+  "editor.formatOnSave": true,
   "git.enableSmartCommit": true,
   "emmet.includeLanguages": {
     "postcss": "css"
