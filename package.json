@@ -44,14 +44,14 @@
     "husky": {
         "hooks": {
             "pre-commit": "lint-staged",
-            "pre-push": "yarn run type-check"
+            "pre-push": "npm run type-check"
         }
     },
     "lint-staged": {
         "*.@(ts|tsx|js|json)": [
-            "yarn lint",
-            "yarn format",
-            "yarn test",
+            "npm run lint",
+            "npm run format",
+            "npm run test",
             "git add ."
         ]
     }

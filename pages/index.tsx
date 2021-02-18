@@ -1,5 +1,6 @@
 import Head from 'next/head'
-import Menu from '../src/components/header/Header'
+import Footer from './src/components/footer/Footer'
+import Menu from './src/components/header/Header'
 
 export const Home = (): JSX.Element => (
     <div className="flex flex-col justify-center min-h-screen py-2">
@@ -20,12 +21,7 @@ export const Home = (): JSX.Element => (
                 </p>
             </div>
         </main>
-
-        <footer>
-            <p className="text-xs text-gray-400">
-                &copy; {new Date().getFullYear()} Base CMS boilerplate
-            </p>
-        </footer>
+        <Footer />
     </div>
 )
 

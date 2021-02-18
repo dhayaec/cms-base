@@ -1,4 +1,5 @@
-import Menu from '../src/components/header/Header'
+import Footer from './src/components/footer/Footer'
+import Menu from './src/components/header/Header'
 
 export default function About(): JSX.Element {
     return (
@@ -7,6 +8,7 @@ export default function About(): JSX.Element {
             <main className="flex flex-col items-center justify-center flex-1 px-20 text-center">
                 <p>About</p>
             </main>
+            <Footer />
         </div>
     )
 }
