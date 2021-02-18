@@ -1,6 +1,6 @@
-import Footer from './src/components/footer/Footer'
-import Menu from './src/components/header/Header'
-import MetaHeader from './src/components/meta-header/MetaHeader'
+import Footer from '../src/components/footer/Footer'
+import Menu from '../src/components/header/Header'
+import MetaHeader from '../src/components/meta-header/MetaHeader'
 
 export default function NotFount(): JSX.Element {
     return (

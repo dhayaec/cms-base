@@ -1,4 +1,4 @@
-import { add, multiply } from '../../pages/src/utils/utils'
+import { add, multiply } from './utils'
 
 describe('utils', () => {
     describe('add()', () => {
