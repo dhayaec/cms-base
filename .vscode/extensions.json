@@ -1,11 +1,11 @@
 {
-  "recommendations": [
-    "ricard.PostCSS",
-    "streetsidesoftware.code-spell-checker",
-    "dbaeumer.vscode-eslint",
-    "xabikos.javascriptsnippets",
-    "simonsiefke.prettier-vscode",
-    "bradlc.vscode-tailwindcss",
-    "visualstudioexptteam.vscodeintellicode"
-  ]
+    "recommendations": [
+        "ricard.PostCSS",
+        "streetsidesoftware.code-spell-checker",
+        "dbaeumer.vscode-eslint",
+        "xabikos.javascriptsnippets",
+        "bradlc.vscode-tailwindcss",
+        "visualstudioexptteam.vscodeintellicode",
+        "esbenp.prettier-vscode"
+    ]
 }
