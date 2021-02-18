@@ -1,14 +1,10 @@
-import Head from 'next/head'
 import Footer from './src/components/footer/Footer'
 import Menu from './src/components/header/Header'
+import MetaHeader from './src/components/meta-header/MetaHeader'
 
 export const Home = (): JSX.Element => (
     <div className="flex flex-col justify-center min-h-screen py-2">
-        <Head>
-            <title>Create Next App</title>
-            <link rel="icon" href=" /favicon.ico" />
-        </Head>
-
+        <MetaHeader title="Home" />
         <Menu />
 
         <main className="flex flex-col items-center justify-center flex-1 px-20 text-center">
