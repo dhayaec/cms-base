@@ -1,15 +1,14 @@
 import Head from 'next/head'
+import Menu from '../src/components/header/Header'
 
 export const Home = (): JSX.Element => (
-  <div className="flex flex-col items-center justify-center min-h-screen py-2">
+  <div className="flex flex-col justify-center min-h-screen py-2">
     <Head>
       <title>Create Next App</title>
       <link rel="icon" href=" /favicon.ico" />
     </Head>
 
-    <header className="flex">
-      <h1 className="text-2xl">Header</h1>
-    </header>
+    <Menu />
 
     <main className="flex flex-col items-center justify-center flex-1 px-20 text-center">
       <h1 className="text-blue-400 text-2xl">

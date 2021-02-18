@@ -14,7 +14,8 @@
     "yarn.lock": true,
     "**/.next": true,
     "**/dist/": true,
-    "next-env.d.ts": true
+    "next-env.d.ts": true,
+    ".husky": true
   },
   "git.autofetch": true,
   "editor.fontLigatures": true,
